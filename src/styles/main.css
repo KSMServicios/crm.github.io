@@ -1,0 +1,104 @@
+@import './variables.css';
+
+/* ==========================================================================
+   GLOBAL RESET & BASE STYLES
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--bg-app);
+  background-image: var(--bg-texture, none);
+  color: var(--text-main);
+  line-height: 1.5;
+  min-height: 100vh;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+  overflow-x: hidden;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  transition: all var(--transition-fast);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==========================================================================
+   LAYOUT STRUCTURE (BEM: .app)
+   ========================================================================== */
+
+.app {
+  display: grid;
+  grid-template-areas: 
+    "header"
+    "player"
+    "sidebar"
+    "footer";
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  padding: var(--spacing-md);
+  gap: var(--spacing-md);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .app {
+    grid-template-areas: 
+      "header  header"
+      "player  sidebar"
+      "footer  footer";
+    grid-template-columns: 1fr 400px;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    min-height: 650px;
+    padding: var(--spacing-lg);
+    overflow: hidden; /* Evita scrollbar externa en desktop */
+  }
+}
+
+.app__header { grid-area: header; min-width: 0; }
+.app__player { grid-area: player; min-width: 0; min-height: 0; height: 100%; }
+.app__sidebar { grid-area: sidebar; min-width: 0; min-height: 0; height: 100%; }
+.app__footer { grid-area: footer; min-width: 0; }
+
+/* ==========================================================================
+   UTILITIES
+   ========================================================================== */
+
+.u-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.u-glass {
+  /* Only used if specifically requested, but we'll avoid it for now as per user instruction */
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+}

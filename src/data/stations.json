@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "RADIO VIVA",
+    "url": "https://stream-55.zeno.fm/6x76u1fqb0hvv?zs=N5bhtzBoRZm-XsdFTLML_g",
+    "image": "img/viva 98.5.png"
+  },
+  {
+    "id": 2,
+    "name": "MEETING",
+    "url": "https://stream-152.zeno.fm/ktcsxx48vv8uv?zs=5v_XSuFJTj-3rNBVRfJ9gA",
+    "image": "img/meeting.png"
+  },
+  {
+    "id": 3,
+    "name": "CONEXION TROPICAL",
+    "url": "https://stream-176.zeno.fm/ezyg3g28fc9uv?zs",
+    "image": "img/tropical.png"
+  },
+  {
+    "id": 4,
+    "name": "AMISTAD",
+    "url": "https://streaming01.shockmedia.com.ar/9078/stream",
+    "image": "img/df.png"
+  },
+  {
+    "id": 5,
+    "name": "RADIO CRISTIANA AMOR ETERNO",
+    "url": "https://stream.zeno.fm/rq4bj6d0nhftv",
+    "image": "img/rca.png"
+  },
+  {
+    "id": 6,
+    "name": "LA 13",
+    "url": "http://162.254.201.210:9366",
+    "image": "img/la 13.png"
+  },
+  {
+    "id": 7,
+    "name": "BM RADIO",
+    "url": "https://server.laradio.online/proxy/eduardo_medina?mp=/stream&1711489977146",
+    "image": "img/df.png"
+  },
+  {
+    "id": 8,
+    "name": "AUTENTICA FM",
+    "url": "https://alpha.radioplayer.com.ar:9278/radioautentica",
+    "image": "img/autentica.png"
+  },
+  {
+    "id": 9,
+    "name": "VIVA LA RADIO",
+    "url": "https://dominicanstream.com/proxy/vivalaradio/;",
+    "image": "img/vr.png"
+  },
+  {
+    "id": 10,
+    "name": "21 12 Radio Online",
+    "url": "https://streaming01.shockmedia.com.ar/8968/stream",
+    "image": "img/21.png"
+  },
+  {
+    "id": 11,
+    "name": "Radio Virtual Jireh",
+    "url": "https://stream.zeno.fm/fmppcr6a95quv",
+    "image": "img/vj.png"
+  },
+  {
+    "id": 12,
+    "name": "RADIO CENTRO SANTIAGO",
+    "url": "https://www.radiocentrosantiago.com.ar/p/6010/",
+    "image": "img/centro.png"
+  },
+  {
+    "id": 13,
+    "name": "STUDIO RADIO LC",
+    "url": "https://stream-59.zeno.fm/vy6dn9ah65quv?zs=siPrN1acStWBVZLp9QWWmg",
+    "image": "img/rc.png"
+  },
+  {
+    "id": 14,
+    "name": "CONEXION PRAISE",
+    "url": "https://stream-53.zeno.fm/6duz2xhvv38uv?zs=FHqROgtOTBCrt8Tj6pQS9w",
+    "image": "img/praise.png"
+  },
+  {
+    "id": 15,
+    "name": "Radiofest",
+    "url": "https://stream.zeno.fm/2za9ga0tnd0uv",
+    "image": "img/rf.png"
+  },
+  {
+    "id": 16,
+    "name": "NUEVA VIDA FM 103.5",
+    "url": "https://server.radiostreaming.com.ar/8212/stream",
+    "image": "img/nv.jpg"
+  },
+  {
+    "id": 17,
+    "name": "La culpa es del Otro",
+    "url": "https://stream.zeno.fm/0lqbfnglokeuv",
+    "image": "img/da.png"
+  },
+  {
+    "id": 18,
+    "name": "GENESIS",
+    "url": "https://stream-47.zeno.fm/n7f3kz02hc9uv?zs=iN0tgSHdRzeLpHReovujrQ",
+    "image": "img/df.png"
+  },
+  {
+    "id": 19,
+    "name": "ENIGMA FM 106.5 MHZ",
+    "url": "https://solumedia.com/radios/6728/stream",
+    "image": "img/en.jpg"
+  },
+  {
+    "id": 20,
+    "name": "RADIO DEL ALFARERO",
+    "url": "https://stream.zeno.fm/nwt99c9c5qzuv",
+    "image": "img/rda.png"
+  },
+  {
+    "id": 21,
+    "name": "GRACIA Y PAZ",
+    "url": "https://stream.zeno.fm/mfer4shs398uv",
+    "image": "img/gyp.png"
+  },
+  {
+    "id": 22,
+    "name": "RADIO MUSICA TUCUMÁN",
+    "url": "https://stm.livecastradio.com:7166/stream",
+    "image": "img/tucu.png"
+  },
+  {
+    "id": 23,
+    "name": "Maranatha Radio TV",
+    "url": "https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&port=8464&type=s2&mount=1",
+    "image": "img/ma.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Zensor Radio",
+    "url": "https://centova.servidoraweb.net:9091/stream",
+    "image": "img/zr.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Feeling 91.7",
+    "url": "https://turadioenvivo.com/proxy/feelingsource/app",
+    "image": "img/fl.jpeg"
+  }
+]
