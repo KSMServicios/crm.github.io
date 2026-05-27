@@ -30,6 +30,7 @@ jobs:
       - name: Instalar dependencias
         run: |
           rm -f package-lock.json
+          rm -rf node_modules
           npm install
 
       - name: Compilar proyecto con Vite
