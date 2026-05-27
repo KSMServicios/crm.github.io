@@ -148,5 +148,11 @@
     "name": "Feeling 91.7",
     "url": "https://turadioenvivo.com/proxy/feelingsource/app",
     "image": "img/fl.jpeg"
+  },
+  {
+    "id": 26,
+    "name": "Hits 20 Radio Online",
+    "url": "https://stream.radiosmundiales.com/stream/claudio",
+    "image": "img/Hits-20.jpeg"
   }
 ]
