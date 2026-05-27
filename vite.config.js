@@ -1,13 +1,12 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Utilizar rutas relativas para que funcione correctamente tanto en dominio raíz como en subrutas de GitHub Pages
+  // Utilizar rutas relativas para compatibilidad total con GitHub Pages y Vercel
   base: './',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'assets',
     sourcemap: false,
-    // Limpiar directorio de salida antes de compilar
     emptyOutDir: true,
   }
 });

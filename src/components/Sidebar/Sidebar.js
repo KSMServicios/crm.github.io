@@ -14,7 +14,7 @@ export class Sidebar {
 
   async init() {
     try {
-      const response = await fetch('/src/data/stations.json');
+      const response = await fetch('./stations.json');
       const defaultStations = await response.json();
       const customStations = JSON.parse(localStorage.getItem('crm_custom_stations')) || [];
       
