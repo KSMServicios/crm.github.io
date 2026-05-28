@@ -26,7 +26,7 @@
   {
     "id": 5,
     "name": "RADIO CRISTIANA AMOR ETERNO",
-    "url": "https://stream.zeno.fm/rq4bj6d0nhftv",
+    "url": "https://nvradios.com/listen/radioamo/radio.mp3",
     "image": "img/rca.png"
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "id": 21,
-    "name": "GRACIA Y PAZ",
+    "name": "GRACIA Y PAZ RADIO",
     "url": "https://stream.zeno.fm/mfer4shs398uv",
     "image": "img/gyp.png"
   },
@@ -145,8 +145,8 @@
   },
   {
     "id": 25,
-    "name": "Feeling 91.7",
-    "url": "https://turadioenvivo.com/proxy/feelingsource/app",
+    "name": "FEELING 91.7",
+    "url": "https://turadioenvivo.com/proxy/feelings/stream",
     "image": "img/fl.jpeg"
   },
   {
@@ -154,5 +154,17 @@
     "name": "Hits 20 Radio Online",
     "url": "https://stream.radiosmundiales.com/stream/claudio",
     "image": "img/Hits-20.jpeg"
+  },
+  {
+    "id": 27,
+    "name": "RADIO TOTAL 505",
+    "url": "https://zonaclouds.ddns.net:8020/stream",
+    "image": "img/505.jpeg"
+  },
+  {
+    "id": 28,
+    "name": "RADIO VIP VENEZUELA",
+    "url": "https://fpsnew1.listen2myradio.com:2199/listen.php?ip=82.145.63.6&port=8820&type=s2&mount=1",
+    "image": "img/vip.jpeg"
   }
 ]
