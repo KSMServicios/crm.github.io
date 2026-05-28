@@ -156,15 +156,21 @@
     "image": "img/Hits-20.jpeg"
   },
   {
-    "id": 27,
-    "name": "RADIO TOTAL 505",
-    "url": "https://zonaclouds.ddns.net:8020/stream",
-    "image": "img/505.jpeg"
-  },
-  {
     "id": 28,
     "name": "RADIO VIP VENEZUELA",
     "url": "https://fpsnew1.listen2myradio.com:2199/listen.php?ip=82.145.63.6&port=8820&type=s2&mount=1",
-    "image": "img/vip.jpeg"
+    "image": "img/vip.png"
+  },
+  {
+    "id": 29,
+    "name": "PJ RADIO",
+    "url": "https://sonicpanel.zonaradio.net/8184/stream",
+    "image": "img/PJ.png"
+  },
+  {
+    "id": 30,
+    "name": "RADIO TOTAL 505",
+    "url": "https://zonaclouds.ddns.net:8020/stream",
+    "image": "img/505.png"
   }
 ]
