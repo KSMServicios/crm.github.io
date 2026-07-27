@@ -30,12 +30,6 @@
     "image": "img/rca.png"
   },
   {
-    "id": 6,
-    "name": "LA 13",
-    "url": "http://162.254.201.210:9366",
-    "image": "img/la 13.png"
-  },
-  {
     "id": 7,
     "name": "BM RADIO",
     "url": "https://server.laradio.online/proxy/eduardo_medina?mp=/stream&1711489977146",
