@@ -1,4 +1,4 @@
-const CACHE_NAME = "crm-radio-cache-v2";
+const CACHE_NAME = "crm-radio-cache-v4";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -41,8 +41,8 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
 
-  // 1. Evitar interceptar streams de audio (CORS / Live streams)
-  if (url.pathname.match(/\.(mp3|aac|m4a)$/) || event.request.url.includes("zeno.fm") || event.request.url.includes("stream")) {
+  // 1. Evitar interceptar peticiones no-GET (como POST a /api/git-push), rutas /api o streams de audio
+  if (event.request.method !== "GET" || url.pathname.startsWith("/api/") || url.pathname.match(/\.(mp3|aac|m4a)$/) || event.request.url.includes("zeno.fm") || event.request.url.includes("stream")) {
     return; // Dejar pasar la petición nativa directamente a la red
   }
 
